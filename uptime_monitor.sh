@@ -3,6 +3,7 @@
 now="$(date +'%d/%m/%Y %T (%s)')" 
 nfail=0
 N=$1
+i=0
 
 while [ "$i" -le "$N" ]; do
     sleep 1
